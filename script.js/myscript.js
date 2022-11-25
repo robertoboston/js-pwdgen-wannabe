@@ -11,7 +11,7 @@ console.log(color_user)
   4.1
   let content_tag = document.getElementById('password').innerHTML;
   4.2
-  let string=`${name_user} ${surname_user} ${color_user} ${content_tag}`;
+  let string=name_user+surname_user+color_user+content_tag;
   4.3
   document.getElementById('password').innerHTML=string
   console.log(string)
